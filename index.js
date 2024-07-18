@@ -80,9 +80,9 @@
   }
 
   function shareOnLinkedIn() {
-    const linkedinUrl = `https://www.linkedin.com/shareArticle?mini=true&url=www.linkedin.com/in/piyush-m-79a993280&title=Check%20out%20my%20portfolio&summary=Hi%20I%27m%20Piyush%2C%20contact%20me%20at%207988124907&source=`;
-    window.open(linkedinUrl, 'blank');
-    console.log('Share on LinkedIn');
+    const linkedInProfileUrl = `https://www.linkedin.com/in/piyush-m-79a993280`;
+    window.open(linkedInProfileUrl, 'blank');
+    console.log('Visit LinkedIn Profile');
   }
 
   function viewResume() {
